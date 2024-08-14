@@ -1,0 +1,263 @@
+body{
+    background: #E5E5E5;
+}
+    #logo{
+        width: 120px;
+        height: 48px;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    #munhecotext{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 0px;
+
+        position: absolute;
+        width: 336px;
+        height: 122px;
+        left: 1032px;
+        top: 355px;
+    }
+        #text1{
+            width: 336px;
+            height: 5px;
+            
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 120%;
+                       
+            text-align: center;
+                       
+            color: #343A40;         
+            
+            flex: none;
+            order: 0;
+            align-self: stretch;
+            flex-grow: 0;
+            }
+        #text2{
+            width: 336px;
+            height: 48px;
+            
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            
+            text-align: center;
+            
+            color: #495057;
+            
+            flex: none;
+            order: 1;
+            align-self: stretch;
+            flex-grow: 0;
+
+        }
+    #munheco{
+        position: absolute;
+        width: 336px;
+        height: 304px;
+        left: 1032px;
+        top: 90px;
+
+    }
+    #ingresar{
+     
+        
+        position: absolute;
+        width: 665px;
+        height: 465px;
+        left: 240px;
+        top: 80px;
+        background:#E5E5E5;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+        
+        color: #0A3871;
+    }
+    #ingresar::placeholder{
+        color: #0A3871;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+    }
+    #vector{
+        width: 16px;
+        height: 16px;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        position: absolute;
+        left: 240px;
+        right: 0%;
+        top: 557px;
+        bottom: 0%;
+        
+
+    }
+    #info{
+        width: 205px;
+        height: 18px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #495057;
+        opacity: 0.8;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        position: absolute;
+        left: 265px;
+        right: 0%;
+        top: 542px;
+        bottom: 0%;
+
+    }
+#botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 575px;
+}
+    #b1{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+
+        width: 328px;
+        height: 67px;
+
+        background: #0A3871;
+        border-radius: 24px;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    #tb{
+        width: 280px;
+        height: 19px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+
+        flex: none;
+        order: 0;
+        flex-grow: 1;   
+    }
+    #b2{
+        box-sizing: border-box;
+       
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+        
+        width: 328px;
+        height: 67px;
+              
+        background: #D8DFE8;       
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+               
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        
+    }
+    #b1 #tb{
+        color: #FFFFFF;
+    }
+    #b2 #tb{
+        color:#0A3871;
+    }
+    #b3{
+        box-sizing: border-box;
+
+        width: 328px;
+        height: 67px;
+        
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+        margin-left: 95px; 
+        order: 2;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+    }
+    #b3 #tb{
+        color: #0A3871
+    }
+
+#rectangulo{
+    position: absolute;
+    width: 400px;
+    height: 610px;
+    left: 1000px;
+    top: 40px;
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    
+    padding-left: 25px;
+    padding-top: 0;
+    color: #495057;
+}
+#rectangulo ::placeholder{
+    position: absolute;
+    width: 336px;
+    height: 781px;
+    left: 25px;
+    top: 0px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    
+    color: #495057;
+
+}
